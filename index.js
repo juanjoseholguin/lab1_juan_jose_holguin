@@ -76,7 +76,7 @@ console.log(grupos);
 // Ejercicio 9//
 
 const persona = { nombre: "Carlos", apellido: "Pérez", edad: 28 };
-const transformada = _.mapKeys(persona, (value, key) => key.toUpperCase());
+const transformada = _.mapKeys(persona, (valor, clave ) => key.toUpperCase(clave));
 console.log(transformada);
 
 
