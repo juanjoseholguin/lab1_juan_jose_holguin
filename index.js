@@ -3,24 +3,24 @@ import _ from "lodash"
 //Ejercicio 1//
 
 const numeros = [1, 2, 3, 4, 5];
-const numerosinvertidos = _.reverse(numeros);
-console.log(numerosinvertidos);
+const numerosInvertidos = _.reverse(numeros);
+console.log(numerosInvertidos);
 
 
 
 //Ejercicio 2//
 
 const valores = [0, "Hola", false, 42, "", null, "Mundo", undefined, NaN, true]; 
-const valoresfiltrados = _.filter(valores, Boolean);
-console.log(valoresfiltrados); 
+const valoresFiltrados = _.filter(valores, Boolean);
+console.log(valoresFiltrados); 
 
 
 
 //Ejercicio 3//
 
-const arrayuno = [1, 2, 3];
-const arraydos = [4, 5, 6];
-const union = _.union(arrayuno, arraydos);
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const union = _.union(array1, array2);
 console.log(union);
 
 
@@ -28,16 +28,16 @@ console.log(union);
 //Ejercicio 4//
 
 const palabras = ["hola", "mundo", "hola", "javascript", "mundo", "hola"];
-const frecuenciadeelementos = _.countBy(palabras);
-console.log( frecuenciadeelementos);
+const frecuenciaElementos = _.countBy(palabras);
+console.log( frecuenciaElementos);
 
 
 
 //Ejercicio 5//
 
-const array1 = [1, 2, 3, 4, 5];
-const array2 = [3, 4, 5, 6, 7];
-const diferencia = _.difference(array1, array2);
+const arrayUno = [1, 2, 3, 4, 5];
+const arrayDos = [3, 4, 5, 6, 7];
+const diferencia = _.difference(arrayUno, arrayDos);
 console.log(diferencia);
 
 
@@ -49,17 +49,17 @@ const personas = [
   { nombre: "Luis", edad: 22 },
   { nombre: "Juan", edad: 30 }
 ];
-const personasordenadas = _.sortBy(personas, 'edad');
-console.log(personasordenadas);
+const personasOrdenadas = _.sortBy(personas, 'edad');
+console.log(personasOrdenadas);
 
 
 
 
 //Ejercicio 7//
 
-const numerosrepetidos = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7];
-const valoresunicos = _.uniq(numerosrepetidos);
-console.log(valoresunicos);
+const numerosRepetidos = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7];
+const valoresUnicos = _.uniq(numerosRepetidos);
+console.log(valoresUnicos);
 
 
 
